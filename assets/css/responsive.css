@@ -1,0 +1,209 @@
+/*-------------------------------------
+    Responsive Stylesheet (Optimized)
+--------------------------------------*/
+
+/* Max Width: 1680px */
+@media screen and (max-width:1680px) {}
+
+/* Max Width: 1440px */
+@media screen and (max-width:1440px) {
+    .single-welcome-hero {
+        height: 807px;
+    }
+}
+
+/* Max Width: 1199px */
+@media screen and (max-width:1199px) {
+    nav.navbar.bootsnav ul.nav>li>a {
+        padding: 35px 10px;
+    }
+
+    .welcome-hero-txt h2 {
+        font-size: 40px;
+    }
+
+    .single-welcome-hero-form input {
+        width: 177px;
+    }
+
+    .welcome-hero-btn {
+        width: 140px;
+    }
+
+    .single-ststistics-box h3,
+    .statistics-content {
+        font-size: 18px;
+    }
+}
+
+/* Max Width: 1024px */
+@media screen and (max-width:1024px) {
+    .single-welcome-hero {
+        height: 768px;
+    }
+}
+
+/* Max Width: 991px - Responsive Form Fix */
+@media screen and (max-width:991px) {
+    .welcome-hero-serch-box {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .welcome-hero-form {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .single-welcome-hero-form {
+        width: 100%;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .single-welcome-hero-form input {
+        width: 100%;
+        height: 50px;
+    }
+
+    .welcome-hero-serch {
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .welcome-hero-btn {
+        width: 250px;
+        height: 60px;
+        margin: 15px auto !important;
+        display: block;
+        position: relative;
+        text-align: center;
+    }
+}
+
+/* Max Width: 767px */
+@media screen and (max-width:767px) {
+    .welcome-hero-txt h2 {
+        font-size: 24px;
+    }
+
+    .single-welcome-hero {
+        height: auto;
+        background: transparent;
+        padding: 100px 0;
+        display: block;
+    }
+
+    .welcome-hero-txt {
+        padding-top: 80px;
+    }
+
+    .single-welcome-hero-form {
+        flex-direction: column;
+        width: 100%;
+        background: #fff;
+        margin: 15px 0;
+        padding: 20px 0;
+    }
+
+    .welcome-hero-form {
+        width: 100%;
+        flex-direction: column;
+        background: transparent;
+    }
+
+    .list-topics-content,
+    .single-how-works,
+    .single-blog-item,
+    .single-explore-item {
+        max-width: 350px;
+        margin: 30px auto;
+    }
+
+    .explore-map-icon {
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    .statistics {
+        padding: 60px 0;
+    }
+
+    .appsLand-btn {
+        position: relative;
+        margin-top: 30px;
+    }
+
+    .footer-menu .navbar-header a.navbar-brand,
+    .footer-social,
+    .footer-menu ul.footer-menu-item {
+        text-align: left;
+        margin-top: 20px;
+    }
+}
+
+/* Max Width: 540px */
+@media screen and (max-width:540px) {
+
+    .select-opt,
+    .header-top-contact {
+        border: 0;
+    }
+
+    .subscribe-title h2 {
+        font-size: 18px;
+    }
+}
+
+/* Max Width: 480px */
+@media screen and (max-width:480px) {
+    .subscription-input-group .subscription-input-form {
+        width: 300px;
+    }
+
+    .single-welcome-hero-form h3 {
+        font-size: 12px;
+    }
+
+    .single-welcome-hero-form input,
+    .welcome-hero-btn {
+        font-size: 14px;
+    }
+
+    .welcome-hero-btn {
+        height: 55px;
+        width: 100%;
+        max-width: 280px;
+        margin-top: 20px !important;
+    }
+}
+
+/* Max Width: 399px */
+@media screen and (max-width:399px) {
+
+    .testimonial-carousel .col-sm-3,
+    .testimonial-carousel .col-xs-12 {
+        width: 260px;
+    }
+
+    .footer-social span {
+        display: block;
+        margin-bottom: 15px;
+    }
+}
+
+/* Max Width: 350px */
+@media screen and (max-width:350px) {
+    nav.navbar.bootsnav .navbar-toggle {
+        margin-right: -25px;
+        left: -10px;
+    }
+
+    .subscription-input-group .subscription-input-form {
+        width: 220px;
+    }
+}
